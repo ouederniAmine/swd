@@ -1424,5 +1424,17 @@
 @media(max-width:1026px) {
     #main-h1 {
         padding-top: 80px ;
+        text-align: left;
+    }
+}
+@media(max-width:376px) {
+    #main-swd {
+        display: none;
+    }
+    #logo-img{
+        width: 60px!important;
+    }
+    #send{
+        display: none;
     }
 }
